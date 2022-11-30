@@ -1,0 +1,37 @@
+/*
+font-family: 'IBM Plex Serif', serif;
+font-family: 'Lato', sans-serif;
+*/
+
+html {
+    max-width: 60rem;
+    margin: auto;
+}
+
+nav {
+    font-family: 'IBM Plex Serif', serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    padding: 0 1rem;
+}
+
+nav li:hover {
+    text-decoration: underline;
+}
+
+main {
+    font-family: 'Lato', sans-serif;
+}
+
+.banner {
+    margin: 5rem 0rem;
+}
