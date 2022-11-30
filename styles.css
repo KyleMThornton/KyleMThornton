@@ -32,5 +32,16 @@ main {
 }
 
 .banner {
-    margin: 3rem 0rem;
+    margin: 8rem 0rem;
+}
+
+.projectswrapper {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.webproject {
+    border: 1px black solid;
+    padding: 5rem;
 }
