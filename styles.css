@@ -58,4 +58,19 @@ main {
     text-decoration: underline;
 }
 
+.about {
+    margin-top: 3rem;
+}
 
+.skills {
+    margin-top: 3rem;
+}
+
+.skillswrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact {
+    margin-top: 3rem;
+}
