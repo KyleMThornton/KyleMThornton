@@ -84,3 +84,17 @@ main {
 #project1 {
     background-image: url(https://picsum.photos/300?blur);
 }
+
+/*  
+footer {
+    position: absolute;
+    background-color: lightgray;
+    height: 3rem;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+}
+*/
