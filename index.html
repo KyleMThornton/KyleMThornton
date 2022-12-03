@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;700&family=Lato:wght@300;400&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/68cb20adae.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body onload="startTime()">
     <nav>
         <div class="navwrapper">
             <h1><a href="./index.html">Kyle Thornton</a></h1>
@@ -62,9 +62,22 @@
                 <i class="fa-brands fa-aws fa-3x"></i>
             </div>
         </div>
+        <div class="timer">
+            <p>You have been on this site for
+            <span id="seconds"></span>
+            seconds. I hope you're enjoying your stay!</p>
+        </div>
         <footer>
             <!-- <i class="fa-brands fa-github"></i> -->
         </footer>
     </main>
 </body>
+<script>
+    let seconds = 0
+    function startTime() {
+        seconds += 1;
+        document.getElementById("seconds").innerHTML = seconds;
+    }
+    let cancel = setInterval(startTime,1000);
+</script>
 </html>

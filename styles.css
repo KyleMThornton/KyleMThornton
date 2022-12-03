@@ -103,6 +103,13 @@ main {
     color: purple;
 }
 
+.timer {
+    margin-top: 3rem;
+}
+.timer span {
+    font-weight: bold;
+}
+
 /*  
 footer {
     position: absolute;
