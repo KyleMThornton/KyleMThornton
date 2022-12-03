@@ -90,9 +90,6 @@ main {
     background-image: url(https://picsum.photos/300?blur);
 }
 
-.contact {
-}
-
 .contact a {
     padding-left: 2rem;
     text-decoration: none;
@@ -123,3 +120,52 @@ footer {
     align-items: center;
 }
 */
+
+@media only screen and (max-device-width: 480px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav {
+        width: 100%;
+        margin: 0;
+        position: fixed;
+        background-color: white;
+        top: 0;
+        z-index: 2;
+    }
+
+    nav h1 {
+        margin: 1rem;
+    }
+    nav li {
+        display: none;
+    }
+
+    nav li:nth-child(4) {
+        display: flex;
+        font-size: 1.25rem;
+        margin: 1rem;
+    }
+
+    main {
+        margin: 1rem;
+        padding-top: 3em;
+    }
+
+    .webproject {
+        min-width: 20rem;
+        min-height: 20rem;
+        font-size: 1.5rem;
+    }
+
+    #project1 {
+        background-image: url(https://picsum.photos/400?blur);
+    }
+
+    .contact {
+        padding-top: 1rem;
+    }
+    
+}
