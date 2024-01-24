@@ -1,2 +1,4 @@
-# Kyle Thornton
-My portfolio site that I will use to display all of my work.
+- 👋 Hello! I'm Kyle Thornton. Welcome to my GitHub!
+- 💻 Frontend: React, Next.js, Tailwind CSS
+- 🌐 Backend: Express.js, FastAPI, PostgreSQL
+- 💡 Always learning something new!
