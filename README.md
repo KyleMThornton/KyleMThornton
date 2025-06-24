@@ -1,4 +1,3 @@
-- 👋 Hello! I'm Kyle Thornton. Welcome to my GitHub!
-- 💻 Frontend: React, Next.js, Tailwind CSS
-- 🌐 Backend: Express.js, FastAPI, PostgreSQL
-- 💡 Always learning something new!
+👋 Hello! I'm Kyle Thornton. Welcome to my GitHub!
+💻 IT Engineer
+💡 Always learning something new!
