@@ -1,3 +1,3 @@
 👋 Hello! I'm Kyle Thornton. Welcome to my GitHub!  
-💻 IT Engineer  
+💻 Lead IT Engineer  
 💡 Always learning something new!
